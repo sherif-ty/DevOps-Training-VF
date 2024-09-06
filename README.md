@@ -1,7 +1,7 @@
 <h1>DevOps Training: Roadmap, Tools, Activities & Maturity Model</h1>
 
 <h2>1. Introduction to DevOps</h2>
-<img src="https://www.plesk.com/wp-content/uploads/2020/02/DevOps-1.png" alt="Introduction to DevOps" width="300" />
+<img src="https://www.plesk.com/wp-content/uploads/2020/02/DevOps-1.png" alt="Introduction to DevOps"/>
 <p>
     DevOps is a set of practices that unifies software development (Dev) and IT operations (Ops) to shorten the development lifecycle while delivering high-quality software continuously.
 </p>
