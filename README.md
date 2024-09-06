@@ -79,12 +79,11 @@
   <li><b>Security Gaps:</b> DevSecOps integrates security practices into the CI/CD pipeline, ensuring vulnerabilities are addressed earlier.</li>
 </ul>
 <h2>7. Differences Between DevSecOps, DevTestOps, and MLOps</h2>
-<h3>7.1 DevSecOps</h3><img src="![image](https://github.com/user-attachments/assets/c51de5b7-b990-4825-aa8f-6d210762f65e)
-" alt="DevSecOps" width="600">
+<h3>7.1 DevSecOps</h3><img src="https://amazic.com/wp-content/uploads/2023/06/devsecops-lifecycle.jpg" alt="DevSecOps" width="600">
 <p>DevSecOps integrates security into every stage of the DevOps lifecycle. It ensures that security checks, such as vulnerability scanning and penetration testing, are included in CI/CD pipelines, leading to more secure software.</p>
 <h3>7.2 DevTestOps</h3><img src="https://testingxperts.com/wp-content/uploads/2021/09/DevTestOps-Concept.png" alt="DevTestOps" width="600">
 <p>DevTestOps emphasizes automated testing throughout the DevOps lifecycle. This practice ensures that quality is embedded in every stage of the development process, from code writing to production.</p>
-<h3>7.3 MLOps</h3><img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*vIolDB4c6B3sz1jVAYbyHg.png" alt="MLOps" width="600">
+<h3>7.3 MLOps</h3><img src="https://daxg39y63pxwu.cloudfront.net/images/blog/mlops-lifecycle/MLOps_Lifecycle.webp" alt="MLOps" width="600">
 <p>MLOps is a specialized version of DevOps designed for machine learning models. It facilitates collaboration between data scientists and operations teams to streamline the deployment and monitoring of machine learning models at scale.</p>
 <h2>8. Key Resources for Learning DevOps</h2>
 <ul>
