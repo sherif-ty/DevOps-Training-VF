@@ -3,7 +3,7 @@
 <p>
 <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*lLko1uApoWelFy7ZUA-Tpg.jpeg" alt="Why DevOps" width="600"></p>
 <p>DevOps is a set of practices that unifies software development (Dev) and IT operations (Ops) to shorten the development lifecycle while delivering high-quality software continuously.</p>
-<h2>2. Why DevOps?</h2><img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*x-TZmDtHUZVEaQqQU8gShw.png" alt="Why DevOps" width="600">
+<h2>2. Why DevOps?</h2><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.epikso.com%2Fblog%2Fimportance-of-solution-design-and-development%2F&psig=AOvVaw0VI3zD2uDYlSlmwCPCAGqq&ust=1725740157243000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLC1252Rr4gDFQAAAAAdAAAAABA5" alt="Why DevOps" width="600">
 <ul>
   <li>Reduce development cycle time.</li>
   <li>Faster delivery of features and fixes.</li>
