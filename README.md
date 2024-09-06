@@ -60,7 +60,7 @@
     </tr>
   </tbody>
 </table>
-<h2>5. DevOps Maturity Model</h2><img src="https://www.bmc.com/blogs/wp-content/uploads/2021/05/DevOps-Maturity-Model.png" alt="DevOps Maturity Model" width="600">
+<h2>5. DevOps Maturity Model</h2><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDAyPBC8ETbLKqq-kXIsDJWVcO3WIKUa8WNkaKBIvPb4Wm6DlSj_zugjLqk6v0u_j5Snv9qCtIDB_lPF191vWqR-zSyEF-cvHLoIR7ZstVdUZDOcT3gCSr7vQ-sZ_89B1_oWHYx-NYy709/s1600/continuous-delivery-maturity-model-v1.0.png" alt="DevOps Maturity Model" width="600">
 <p>DevOps maturity describes an organization’s ability to perform DevOps practices effectively. There are five key stages of DevOps maturity:</p>
 <ul>
   <li><b>Level 1 - Initial:</b> Teams are siloed, and processes are manual.</li>
@@ -79,7 +79,8 @@
   <li><b>Security Gaps:</b> DevSecOps integrates security practices into the CI/CD pipeline, ensuring vulnerabilities are addressed earlier.</li>
 </ul>
 <h2>7. Differences Between DevSecOps, DevTestOps, and MLOps</h2>
-<h3>7.1 DevSecOps</h3><img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*Ap7LbDpFC8jOzR_d3ykDSA.jpeg" alt="DevSecOps" width="600">
+<h3>7.1 DevSecOps</h3><img src="![image](https://github.com/user-attachments/assets/c51de5b7-b990-4825-aa8f-6d210762f65e)
+" alt="DevSecOps" width="600">
 <p>DevSecOps integrates security into every stage of the DevOps lifecycle. It ensures that security checks, such as vulnerability scanning and penetration testing, are included in CI/CD pipelines, leading to more secure software.</p>
 <h3>7.2 DevTestOps</h3><img src="https://testingxperts.com/wp-content/uploads/2021/09/DevTestOps-Concept.png" alt="DevTestOps" width="600">
 <p>DevTestOps emphasizes automated testing throughout the DevOps lifecycle. This practice ensures that quality is embedded in every stage of the development process, from code writing to production.</p>
