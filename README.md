@@ -1,13 +1,13 @@
 <h1>DevOps Training: Roadmap, Tools, Activities & Maturity Model</h1>
 
 <h2>1. Introduction to DevOps</h2>
-<img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*x-TZmDtHUZVEaQqQU8gShw.png" alt="Introduction to DevOps" width="600" />
+<img src="https://www.plesk.com/wp-content/uploads/2020/02/DevOps-1.png" alt="Introduction to DevOps" width="600" />
 <p>
-    DevOps is a set of practices that aims to unify software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver high-quality software continuously. It integrates automation, collaboration, and continuous feedback loops to enable teams to build, test, and release software faster and more reliably.
+    DevOps is a set of practices that unifies software development (Dev) and IT operations (Ops) to shorten the development lifecycle while delivering high-quality software continuously.
 </p>
 
 <h2>2. Why DevOps?</h2>
-<img src="https://www.plesk.com/wp-content/uploads/2020/02/DevOps-1.png" alt="Why DevOps" width="600" />
+<img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*x-TZmDtHUZVEaQqQU8gShw.png" alt="Why DevOps" width="600" />
 <ul>
     <li>Reduce development cycle time.</li>
     <li>Faster delivery of features and fixes.</li>
@@ -30,6 +30,7 @@
 </ul>
 
 <h2>4. DevOps Tools</h2>
+<img src="https://d3n817fwly711g.cloudfront.net/uploads/2017/11/devops_tools.png" alt="DevOps Tools" width="600" />
 <p>The following are some tools widely used in each phase of the DevOps lifecycle:</p>
 <table>
     <thead>
@@ -77,7 +78,7 @@
     <li><b>Level 1 - Initial:</b> Teams are siloed, and processes are manual.</li>
     <li><b>Level 2 - Managed:</b> Development and operations teams begin collaborating, but with manual handoffs.</li>
     <li><b>Level 3 - Defined:</b> Teams adopt CI/CD practices, but not fully automated.</li>
-    <li><b>Level 4 - Quantitatively Managed:</b> Automation in place with some visibility into metrics and monitoring.</li>
+    <li><b>Level 4 - Quantitatively Managed:</b> Automation in place with visibility into metrics and monitoring.</li>
     <li><b>Level 5 - Optimized:</b> Fully automated pipeline with integrated monitoring, infrastructure as code, and continuous feedback loops.</li>
 </ul>
 
@@ -85,10 +86,10 @@
 <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*wuOH7n4ytWoGqEJ6M5BXnA.png" alt="DevOps Problems Solved" width="600" />
 <p>DevOps addresses the following challenges in traditional software development:</p>
 <ul>
-    <li><b>Slow Releases:</b> By automating testing, integration, and delivery, DevOps speeds up software releases.</li>
+    <li><b>Slow Releases:</b> Automating testing, integration, and delivery, DevOps speeds up software releases.</li>
     <li><b>Unreliable Deployments:</b> Continuous testing and automated deployment pipelines reduce human errors and ensure consistent results.</li>
     <li><b>Poor Collaboration:</b> DevOps fosters collaboration between developers, QA, and operations teams, breaking down silos.</li>
-    <li><b>Scaling Issues:</b> Infrastructure as Code (IaC) automates the scaling of resources, enabling faster responses to growth.</li>
+    <li><b>Scaling Issues:</b> Infrastructure as Code (IaC) automates scaling of resources, enabling faster responses to growth.</li>
     <li><b>Security Gaps:</b> DevSecOps integrates security practices into the CI/CD pipeline, ensuring vulnerabilities are addressed earlier.</li>
 </ul>
 
@@ -112,5 +113,3 @@
     <li><a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/">Kubernetes Basics</a> - Learn how to use Kubernetes for orchestration.</li>
     <li><a href="https://aws.amazon.com/devops/">AWS DevOps</a> - Explore AWS tools for DevOps implementation.</li>
 </ul>
-
-<img src="https://your-image-link-here" alt="DevOps Process Image" />
