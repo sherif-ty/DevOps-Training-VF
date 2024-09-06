@@ -1,7 +1,7 @@
 <h1>DevOps Training: Roadmap, Tools, Activities & Maturity Model</h1>
 <h2>1. Introduction to DevOps</h2>
-<p>https://miro.medium.com/v2/resize:fit:1400/format:webp/1*lLko1uApoWelFy7ZUA-Tpg.jpeg
-</p>
+<p>
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*lLko1uApoWelFy7ZUA-Tpg.jpeg" alt="Why DevOps" width="600"></p>
 <p>DevOps is a set of practices that unifies software development (Dev) and IT operations (Ops) to shorten the development lifecycle while delivering high-quality software continuously.</p>
 <h2>2. Why DevOps?</h2><img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*x-TZmDtHUZVEaQqQU8gShw.png" alt="Why DevOps" width="600">
 <ul>
