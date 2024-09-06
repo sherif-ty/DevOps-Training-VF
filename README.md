@@ -12,7 +12,7 @@
   <li>Increased deployment frequency and faster time to market.</li>
 </ul>
 <h2>3. DevOps Roadmap</h2><img src="https://roadmap.sh/roadmaps/devops.png" alt="DevOps Roadmap" width="600">
-<h3>3.1 Key Phases of the DevOps Lifecycle</h3><img src="https://xebialabs.com/wp-content/uploads/files/tool-chest/devops-toolchain.png" alt="DevOps Lifecycle" width="600">
+<h3>3.1 Key Phases of the DevOps Lifecycle</h3><img src="https://cms-cdn.katalon.com/medium_7cs_of_devops_lifecycle_09484f6808.png" alt="DevOps Lifecycle" width="600">
 <ul>
   <li><b>Continuous Integration (CI):</b> Developers frequently integrate code into a shared repository, ensuring early detection of bugs.</li>
   <li><b>Continuous Delivery (CD):</b> Automates the release of validated code to a staging environment or production.</li>
