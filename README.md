@@ -32,6 +32,14 @@
   <li><a href="https://www.virtualbox.org/manual/ch02.html#idm1713">Mac Installation Guide</a></li>
   <li><a href="https://www.virtualbox.org/manual/ch02.html#linux-installation">Linux Installation Guide</a></li>
 </ul>
+<h3>3. PuTTY</h3>
+<h4>Installation Guides:</h4>
+<ul>
+  <li><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">Windows Installation Guide</a></li>
+  <li><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/x11.html">Mac Installation Guide</a></li>
+  <li><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/puttydoc.txt">Linux Installation Guide</a></li>
+</ul>
+
 
 <h2>Content and Schedule</h2>
 <ul>
