@@ -1,6 +1,7 @@
 <h1>DevOps Training: Roadmap, Tools, Activities & Maturity Model</h1>
 <h2>1. Introduction to DevOps</h2>
-<p><img src="https://www.plesk.com/wp-content/uploads/2020/02/DevOps-1.png" alt="Introduction to DevOps"></p>
+<p>![image](https://github.com/user-attachments/assets/3d7bf034-e374-4e63-9a42-e78f98ce81ef)
+</p>
 <p>DevOps is a set of practices that unifies software development (Dev) and IT operations (Ops) to shorten the development lifecycle while delivering high-quality software continuously.</p>
 <h2>2. Why DevOps?</h2><img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*x-TZmDtHUZVEaQqQU8gShw.png" alt="Why DevOps" width="600">
 <ul>
