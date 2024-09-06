@@ -1,11 +1,13 @@
 <h1>DevOps Training: Roadmap, Tools, Activities & Maturity Model</h1>
 
 <h2>1. Introduction to DevOps</h2>
+<img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*x-TZmDtHUZVEaQqQU8gShw.png" alt="Introduction to DevOps" width="600" />
 <p>
     DevOps is a set of practices that aims to unify software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver high-quality software continuously. It integrates automation, collaboration, and continuous feedback loops to enable teams to build, test, and release software faster and more reliably.
 </p>
 
 <h2>2. Why DevOps?</h2>
+<img src="https://www.plesk.com/wp-content/uploads/2020/02/DevOps-1.png" alt="Why DevOps" width="600" />
 <ul>
     <li>Reduce development cycle time.</li>
     <li>Faster delivery of features and fixes.</li>
@@ -15,9 +17,10 @@
 </ul>
 
 <h2>3. DevOps Roadmap</h2>
-<img src="https://your-image-link-here" alt="DevOps Roadmap Image" />
+<img src="https://roadmap.sh/roadmaps/devops.png" alt="DevOps Roadmap" width="600" />
 
 <h3>3.1 Key Phases of the DevOps Lifecycle</h3>
+<img src="https://xebialabs.com/wp-content/uploads/files/tool-chest/devops-toolchain.png" alt="DevOps Lifecycle" width="600" />
 <ul>
     <li><b>Continuous Integration (CI):</b> Developers frequently integrate code into a shared repository, ensuring early detection of bugs.</li>
     <li><b>Continuous Delivery (CD):</b> Automates the release of validated code to a staging environment or production.</li>
@@ -68,6 +71,7 @@
 </table>
 
 <h2>5. DevOps Maturity Model</h2>
+<img src="https://www.bmc.com/blogs/wp-content/uploads/2021/05/DevOps-Maturity-Model.png" alt="DevOps Maturity Model" width="600" />
 <p>DevOps maturity describes an organization’s ability to perform DevOps practices effectively. There are five key stages of DevOps maturity:</p>
 <ul>
     <li><b>Level 1 - Initial:</b> Teams are siloed, and processes are manual.</li>
@@ -78,6 +82,7 @@
 </ul>
 
 <h2>6. DevOps Solves Key Issues</h2>
+<img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*wuOH7n4ytWoGqEJ6M5BXnA.png" alt="DevOps Problems Solved" width="600" />
 <p>DevOps addresses the following challenges in traditional software development:</p>
 <ul>
     <li><b>Slow Releases:</b> By automating testing, integration, and delivery, DevOps speeds up software releases.</li>
@@ -90,12 +95,15 @@
 <h2>7. Differences Between DevSecOps, DevTestOps, and MLOps</h2>
 
 <h3>7.1 DevSecOps</h3>
+<img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*Ap7LbDpFC8jOzR_d3ykDSA.jpeg" alt="DevSecOps" width="600" />
 <p>DevSecOps integrates security into every stage of the DevOps lifecycle. It ensures that security checks, such as vulnerability scanning and penetration testing, are included in CI/CD pipelines, leading to more secure software.</p>
 
 <h3>7.2 DevTestOps</h3>
+<img src="https://testingxperts.com/wp-content/uploads/2021/09/DevTestOps-Concept.png" alt="DevTestOps" width="600" />
 <p>DevTestOps emphasizes automated testing throughout the DevOps lifecycle. This practice ensures that quality is embedded in every stage of the development process, from code writing to production.</p>
 
 <h3>7.3 MLOps</h3>
+<img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*vIolDB4c6B3sz1jVAYbyHg.png" alt="MLOps" width="600" />
 <p>MLOps is a specialized version of DevOps designed for machine learning models. It facilitates collaboration between data scientists and operations teams to streamline the deployment and monitoring of machine learning models at scale.</p>
 
 <h2>8. Key Resources for Learning DevOps</h2>
