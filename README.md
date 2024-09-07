@@ -87,8 +87,7 @@
 <p>MLOps is a specialized version of DevOps designed for machine learning models. It facilitates collaboration between data scientists and operations teams to streamline the deployment and monitoring of machine learning models at scale.</p>
 <h2>8. Key Resources for Learning DevOps</h2>
 <ul>
- <li>
-    <a href="https://www.atlassian.com/devops">Atlassian DevOps Guide</a> - A comprehensive introduction to DevOps principles and practices.
+<li>
+    <a href="https://medium.com/devopslinks/a-beginners-guide-to-devops-f6dce8f8a9ab">A Beginner's Guide to DevOps - Medium</a> - A well-explained introduction to DevOps for beginners.
 </li>
-
 </ul>
