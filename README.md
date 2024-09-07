@@ -87,13 +87,8 @@
 <p>MLOps is a specialized version of DevOps designed for machine learning models. It facilitates collaboration between data scientists and operations teams to streamline the deployment and monitoring of machine learning models at scale.</p>
 <h2>8. Key Resources for Learning DevOps</h2>
 <ul>
-  <li>
-    <a href="https://www.practical-devsecops.com/">Practical DevSecOps</a> - Learn more about DevSecOps best practices.
-  </li>
-  <li>
-    <a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/">Kubernetes Basics</a> - Learn how to use Kubernetes for orchestration.
-  </li>
-  <li>
-    <a href="https://aws.amazon.com/devops/">AWS DevOps</a> - Explore AWS tools for DevOps implementation.
-  </li>
+ <li>
+    <a href="https://www.atlassian.com/devops">Atlassian DevOps Guide</a> - A comprehensive introduction to DevOps principles and practices.
+</li>
+
 </ul>
