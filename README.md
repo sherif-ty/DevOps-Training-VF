@@ -43,7 +43,7 @@
 
 <h2>Content and Schedule</h2>
 <ul>
-  <li>Session 1: (Introdution)</li>
+  <li>Session 1: (DevOps Introdution)</li>
   <li>Session 2: (Content will be added here)</li>
 </ul>
 
