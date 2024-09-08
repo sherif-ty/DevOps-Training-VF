@@ -1,6 +1,6 @@
 <h1>DevOps Training</h1>
 <b>
-  <img src="https://drive.google.com/uc?export=view&id=1gc-vXdQvaa3srR2ZXwHIpJIadqOBKWGp" alt="DevOps Training Image" size ="300"/>
+<img src="https://drive.google.com/uc?export=view&id=1gc-vXdQvaa3srR2ZXwHIpJIadqOBKWGp" alt="DevOps Training Image" width="300" height="300" />
 
 </b>
 <h2>Session Structure</h2>
