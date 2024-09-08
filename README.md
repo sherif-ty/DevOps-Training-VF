@@ -39,6 +39,15 @@
   <li><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/x11.html">Mac Installation Guide</a></li>
   <li><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/puttydoc.txt">Linux Installation Guide</a></li>
 </ul>
+<h3>Minimal Laptop Device Requirements </h3>
+<ul>
+  <li>Processor: Dual-core (Intel or AMD) with virtualization support</li>
+  <li>RAM: At least 8 GB (16 GB or more recommended for running multiple VMs or containers)</li>
+  <li>Storage: 100 GB free disk space (SSD recommended for faster performance)</li>
+  <li>Operating System: Linux (Ubuntu, CentOS, or similar), macOS, or Windows 10/11</li>
+  <li>Network: Reliable internet connection for accessing cloud services and repositories</li>
+  <li>Additional: Support for running virtual machines (e.g., VirtualBox, VMware) or containerized environments (e.g., Docker, Podman)</li>
+</ul>
 
 
 <h2>Content and Schedule</h2>
