@@ -1,8 +1,8 @@
 <h1>DevOps Training</h1>
 <b>
-  <img src="https://drive.google.com/uc?export=view&id=1gc-vXdQvaa3srR2ZXwHIpJIadqOBKWGp" alt="DevOps Training Image" size ="600"/>
+  <img src="https://drive.google.com/uc?export=view&id=1gc-vXdQvaa3srR2ZXwHIpJIadqOBKWGp" alt="DevOps Training Image" size ="300"/>
 
-</b>b
+</b>
 <h2>Session Structure</h2>
 <ul>
   <li>Each session will be available on a different GitHub branch.</li>
