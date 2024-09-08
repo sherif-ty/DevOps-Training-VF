@@ -1,4 +1,4 @@
-<h1>DevOps Training</h1>
+<h1>DevOps Training </h1>
 <b>
 <img src="https://drive.google.com/uc?export=view&id=1gc-vXdQvaa3srR2ZXwHIpJIadqOBKWGp" alt="DevOps Training Image" width="300" height="300" />
 
@@ -59,4 +59,18 @@
   <li>Session 2: (Content will be added here)</li>
 </ul>
 
+
 <p><strong>Note:</strong> Please ensure you have a stable internet connection and enough resources to run Vagrant and VirtualBox for hands-on labs.</p>
+<b></b>
+<h4>Contact</h4>
+<ul style="font-size: smaller;">
+  <li>
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="16" height="16" />
+    Eng.s.abdelkader@gmail.com
+  </li>
+  <li>
+    <img src="https://cdn-icons-png.flaticon.com/512/220/220236.png" alt="WhatsApp" width="16" height="16" />
+    +201025113059
+  </li>
+</ul>
+
