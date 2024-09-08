@@ -34,6 +34,12 @@ To follow along with the training, ensure the following tools are installed on y
 - [Mac Installation Guide](https://www.chiark.greenend.org.uk/~sgtatham/putty/x11.html)
 - [Linux Installation Guide](https://www.chiark.greenend.org.uk/~sgtatham/putty/puttydoc.txt)
 
+  ###4. Git
+####Installation Guides:
+- [Windows Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#windows)
+- [Mac Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#macos)
+- [Linux Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#linux)
+
 ## Minimal Laptop Device Requirements
 
 - **Processor**: Dual-core (Intel or AMD) with virtualization support
@@ -43,7 +49,7 @@ To follow along with the training, ensure the following tools are installed on y
 - **Network**: Reliable internet connection
 - **Additional**: Able to run virtual machines (e.g., VirtualBox, VMware) or containerized environments (e.g., Docker, Podman)
 
-## Content and Schedule
+## Content and Schedule (each session will be 2 hours )
 
 - **Session 1**: DevOps Introduction
 - **Session 2**: (Content will be added here)
