@@ -1,70 +1,50 @@
-<h1 align="center">DevOps Training</h1>
+<h1>Linux Commands</h1>
+<p></p>
+<h2>Vagrant Linux Machine Setup</h2>
 
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1gc-vXdQvaa3srR2ZXwHIpJIadqOBKWGp" alt="DevOps Training Image" width="500" height="500" />
-</p>
+<p>This guide explains how to set up a small Linux machine using Vagrant and VirtualBox, and how to access it as the root user via PuTTY.</p>
 
-## Session Structure
+<h2>Steps to Set Up the Vagrant Machine</h2>
 
-- Each session will be available on a different GitHub branch.
-- Please switch to the relevant branch for the session you're working on.
-
-## Prerequisites
-
-To follow along with the training, ensure the following tools are installed on your machine.
-
-### 1. Visual Studio Code (VS Code)
-
-#### Installation Guides:
-- [Windows Installation Guide](https://code.visualstudio.com/docs/setup/windows)
-- [Mac Installation Guide](https://code.visualstudio.com/docs/setup/mac)
-- [Linux Installation Guide](https://code.visualstudio.com/docs/setup/linux)
-
-### 2. Vagrant
-
-#### Installation Guides:
-- [Windows Installation Guide](https://developer.hashicorp.com/vagrant/docs/installation#windows)
-- [Mac Installation Guide](https://developer.hashicorp.com/vagrant/docs/installation#macos)
-- [Linux Installation Guide](https://developer.hashicorp.com/vagrant/docs/installation#linux)
-
-### 3. PuTTY
-
-#### Installation Guides:
-- [Windows Installation Guide](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
-- [Mac Installation Guide](https://www.chiark.greenend.org.uk/~sgtatham/putty/x11.html)
-- [Linux Installation Guide](https://www.chiark.greenend.org.uk/~sgtatham/putty/puttydoc.txt)
-
-  ###4. Git
-####Installation Guides:
-- [Windows Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#windows)
-- [Mac Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#macos)
-- [Linux Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#linux)
-
-## Minimal Laptop Device Requirements
-
-- **Processor**: Dual-core (Intel or AMD) with virtualization support
-- **RAM**: At least 8 GB (16 GB or more recommended for running multiple VMs or containers)
-- **Storage**: 50 GB free disk space (SSD recommended for faster performance)
-- **Operating System**: Linux, macOS, or Windows
-- **Network**: Reliable internet connection
-- **Additional**: Able to run virtual machines (e.g., VirtualBox, VMware) or containerized environments (e.g., Docker, Podman)
-
-## Content and Schedule (each session will be 2 hours )
-
-- **Session 1**: DevOps Introduction
-- **Session 2**: (Content will be added here)
-
-**Note**: Please ensure you have a stable internet connection and enough resources to run Vagrant and VirtualBox for hands-on labs.
-
-## Contact
-
-<ul style="font-size: smaller;">
-  <li>
-    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="16" height="16" />
-    Eng.s.abdelkader@gmail.com
+<ol>
+  <li>Create a directory for your Vagrant project:
+    <pre><code>mkdir vagrant-linux-machine
+cd vagrant-linux-machine</code></pre>
   </li>
-  <li>
-    <img src="https://cdn-icons-png.flaticon.com/512/220/220236.png" alt="WhatsApp" width="16" height="16" />
-    +201025113059
+
+  <li>Create a <code>Vagrantfile</code> with the configuration for a small Linux machine (the configuration details are excluded here).</li>
+
+  <li>Start the Vagrant machine:
+    <pre><code>vagrant up</code></pre>
   </li>
+
+  <li>If the machine is already running, reload it with provisioning to apply the new configuration:
+    <pre><code>vagrant reload --provision</code></pre>
+  </li>
+
+  <li>To check the SSH configuration of the machine:
+    <pre><code>vagrant ssh-config</code></pre>
+  </li>
+</ol>
+
+<h2>Connecting to the Linux Machine Using PuTTY</h2>
+
+<ol>
+  <li>Open PuTTY and set the following configuration:
+    <ul>
+      <li><strong>IP address:</strong> <code>192.168.56.10</code></li>
+      <li><strong>Port:</strong> <code>22</code></li>
+      <li><strong>Username:</strong> <code>root</code></li>
+      <li><strong>Password:</strong> <code>password</code></li>
+    </ul>
+  </li>
+
+  <li>Click <strong>Open</strong> to initiate the connection. You will now be able to log into the Linux machine as <code>root</code>.</li>
+</ol>
+
+<h2>Notes</h2>
+<ul>
+  <li>The machine uses a minimal setup with Ubuntu as the base operating system.</li>
+  <li>The machine is configured to allow <code>root</code> access with password authentication via SSH.</li>
+  <li>You can modify the IP address or resource allocation (memory and CPU) by editing the <code>Vagrantfile</code>.</li>
 </ul>
