@@ -1,6 +1,8 @@
-# DevOps Training
+<h1 align="center">DevOps Training</h1>
 
-![DevOps Training Image](https://drive.google.com/uc?export=view&id=1gc-vXdQvaa3srR2ZXwHIpJIadqOBKWGp)
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1gc-vXdQvaa3srR2ZXwHIpJIadqOBKWGp" alt="DevOps Training Image" width="500" height="500" />
+</p>
 
 ## Session Structure
 
