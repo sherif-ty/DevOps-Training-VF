@@ -1,68 +1,55 @@
-<h1>DevOps Training </h1>
-<b>
-<img src="https://drive.google.com/uc?export=view&id=1gc-vXdQvaa3srR2ZXwHIpJIadqOBKWGp" alt="DevOps Training Image" width="300" height="300" />
+# DevOps Training
 
-</b>
-<h2>Session Structure</h2>
-<ul>
-  <li>Each session will be available on a different GitHub branch.</li>
-  <li>Please switch to the relevant branch for the session you're working on.</li>
-</ul>
+![DevOps Training Image](https://drive.google.com/uc?export=view&id=1gc-vXdQvaa3srR2ZXwHIpJIadqOBKWGp)
 
-<h2>Prerequisites</h2>
-<p>To follow along with the training, ensure the following tools are installed on your machine.</p>
+## Session Structure
 
-<h3>1. Visual Studio Code (VS Code)</h3>
-<h4>Installation Guides:</h4>
-<ul>
-  <li><a href="https://code.visualstudio.com/docs/setup/windows">Windows Installation Guide</a></li>
-  <li><a href="https://code.visualstudio.com/docs/setup/mac">Mac Installation Guide</a></li>
-  <li><a href="https://code.visualstudio.com/docs/setup/linux">Linux Installation Guide</a></li>
-</ul>
+- Each session will be available on a different GitHub branch.
+- Please switch to the relevant branch for the session you're working on.
 
-<h3>2. Vagrant</h3>
-<h4>Installation Guides:</h4>
-<ul>
-  <li><a href="https://developer.hashicorp.com/vagrant/docs/installation#windows">Windows Installation Guide</a></li>
-  <li><a href="https://developer.hashicorp.com/vagrant/docs/installation#macos">Mac Installation Guide</a></li>
-  <li><a href="https://developer.hashicorp.com/vagrant/docs/installation#linux">Linux Installation Guide</a></li>
-</ul>
+## Prerequisites
 
-<h3>3. VirtualBox</h3>
-<h4>Installation Guides:</h4>
-<ul>
-  <li><a href="https://www.virtualbox.org/manual/ch02.html#idm1960">Windows Installation Guide</a></li>
-  <li><a href="https://www.virtualbox.org/manual/ch02.html#idm1713">Mac Installation Guide</a></li>
-  <li><a href="https://www.virtualbox.org/manual/ch02.html#linux-installation">Linux Installation Guide</a></li>
-</ul>
-<h3>3. PuTTY</h3>
-<h4>Installation Guides:</h4>
-<ul>
-  <li><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">Windows Installation Guide</a></li>
-  <li><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/x11.html">Mac Installation Guide</a></li>
-  <li><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/puttydoc.txt">Linux Installation Guide</a></li>
-</ul>
-<h3>Minimal Laptop Device Requirements </h3>
-<ul>
-  <li>Processor: Dual-core (Intel or AMD) with virtualization support</li>
-  <li>RAM: At least 8 GB (16 GB or more recommended for running multiple VMs or containers)</li>
-  <li>Storage: 50 GB free disk space (SSD recommended for faster performance)</li>
-  <li>Operating System: Linux or macOS or Windows   </li>
-  <li>Network: Reliable internet connection </li>
-  <li>Additional: able to running virtual machines (e.g., VirtualBox, VMware) or containerized environments (e.g., Docker, Podman)</li>
-</ul>
+To follow along with the training, ensure the following tools are installed on your machine.
 
+### 1. Visual Studio Code (VS Code)
 
-<h2>Content and Schedule</h2>
-<ul>
-  <li>Session 1: (DevOps Introdution)</li>
-  <li>Session 2: (Content will be added here)</li>
-</ul>
+#### Installation Guides:
+- [Windows Installation Guide](https://code.visualstudio.com/docs/setup/windows)
+- [Mac Installation Guide](https://code.visualstudio.com/docs/setup/mac)
+- [Linux Installation Guide](https://code.visualstudio.com/docs/setup/linux)
 
+### 2. Vagrant
 
-<p><strong>Note:</strong> Please ensure you have a stable internet connection and enough resources to run Vagrant and VirtualBox for hands-on labs.</p>
-<b></b>
-<h4>Contact</h4>
+#### Installation Guides:
+- [Windows Installation Guide](https://developer.hashicorp.com/vagrant/docs/installation#windows)
+- [Mac Installation Guide](https://developer.hashicorp.com/vagrant/docs/installation#macos)
+- [Linux Installation Guide](https://developer.hashicorp.com/vagrant/docs/installation#linux)
+
+### 3. PuTTY
+
+#### Installation Guides:
+- [Windows Installation Guide](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+- [Mac Installation Guide](https://www.chiark.greenend.org.uk/~sgtatham/putty/x11.html)
+- [Linux Installation Guide](https://www.chiark.greenend.org.uk/~sgtatham/putty/puttydoc.txt)
+
+## Minimal Laptop Device Requirements
+
+- **Processor**: Dual-core (Intel or AMD) with virtualization support
+- **RAM**: At least 8 GB (16 GB or more recommended for running multiple VMs or containers)
+- **Storage**: 50 GB free disk space (SSD recommended for faster performance)
+- **Operating System**: Linux, macOS, or Windows
+- **Network**: Reliable internet connection
+- **Additional**: Able to run virtual machines (e.g., VirtualBox, VMware) or containerized environments (e.g., Docker, Podman)
+
+## Content and Schedule
+
+- **Session 1**: DevOps Introduction
+- **Session 2**: (Content will be added here)
+
+**Note**: Please ensure you have a stable internet connection and enough resources to run Vagrant and VirtualBox for hands-on labs.
+
+## Contact
+
 <ul style="font-size: smaller;">
   <li>
     <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="16" height="16" />
@@ -73,4 +60,3 @@
     +201025113059
   </li>
 </ul>
-
