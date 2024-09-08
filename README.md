@@ -1,5 +1,8 @@
 <h1>Linux Commands</h1>
 <p></p>
+<img src="https://drive.google.com/uc?export=view&id=1CT-CujN16EmPUY6_3xfaHDz352DLVI2s" alt="Linux Virtual Machine Access via SSH" width="500">
+<p></p>
+
 <h2>Vagrant Linux Machine Setup</h2>
 
 <p>This guide explains how to set up a small Linux machine using Vagrant and VirtualBox, and how to access it as the root user via PuTTY.</p>
@@ -7,20 +10,15 @@
 <h2>Steps to Set Up the Vagrant Machine</h2>
 
 <ol>
-  <li>Create a directory for your Vagrant project:
-    <pre><code>mkdir vagrant-linux-machine
-cd vagrant-linux-machine</code></pre>
+  <li>
+    <pre><code>1-Make sure you are on 2-Linux-Commands branch on you local machine.</code></pre>
   </li>
 
-  <li>Create a <code>Vagrantfile</code> with the configuration for a small Linux machine (the configuration details are excluded here).</li>
 
   <li>Start the Vagrant machine:
     <pre><code>vagrant up</code></pre>
   </li>
 
-  <li>If the machine is already running, reload it with provisioning to apply the new configuration:
-    <pre><code>vagrant reload --provision</code></pre>
-  </li>
 
   <li>To check the SSH configuration of the machine:
     <pre><code>vagrant ssh-config</code></pre>
