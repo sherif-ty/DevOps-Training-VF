@@ -189,7 +189,4 @@
   <li><a href="https://medium.com/" target="_blank">Linux Basics: Medium Learning Resources</a></li>
 </ul>
 
-<script>
-  function toggleDropdown(id) {
-    var element = document.getElementById(id);
-    if (element.style.display === "none
+
