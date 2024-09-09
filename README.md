@@ -127,6 +127,12 @@
     <li><strong>Search recursively in directories (using grep):</strong> 
       <pre><code>grep -r "pattern" /path/to/directory</code></pre>
     </li>
+    <li><strong>Search for a pattern and show the line number:</strong> 
+      <pre><code>grep -n "pattern" filename</code></pre>
+    </li>
+    <li><strong>Search ignoring case:</strong> 
+      <pre><code>grep -i "pattern" filename</code></pre>
+    </li>
   </ul>
 </div>
 
@@ -186,10 +192,4 @@
 <script>
   function toggleDropdown(id) {
     var element = document.getElementById(id);
-    if (element.style.display === "none") {
-      element.style.display = "block";
-    } else {
-      element.style.display = "none";
-    }
-  }
-</script>
+    if (element.style.display === "none
