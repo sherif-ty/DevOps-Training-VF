@@ -186,7 +186,7 @@
 
 <h2>Learning Resources</h2>
 <ul>
-  <li><a href="[https://medium.com/](https://medium.com/ai-advances/best-resources-for-learning-linux-and-a-comprehensive-linux-cheat-sheet-bc55505fe5e2)" target="_blank">Linux Basics: Medium Learning Resources</a></li>
+  <li><a href="https://medium.com/" target="_blank">Linux Basics: Medium Learning Resources</a></li>
 </ul>
 
 
