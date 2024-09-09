@@ -11,7 +11,7 @@
 
 <ol>
   <li>
-    <pre><code>1-Make sure you are on 2-Linux-Commands branch on you local machine.</code></pre>
+    1-Make sure you are on 2-Linux-Commands branch on you local machine.
   </li>
   <li>If the machine is already running, reload it with provisioning to apply the new configuration:
     <pre><code>vagrant reload --provision</code></pre>
