@@ -40,6 +40,13 @@ To follow along with the training, ensure the following tools are installed on y
 - [Mac Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#macos)
 - [Linux Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#linux)
 
+
+### 5. VirtualBox
+#### Installation Guides:
+- [Windows Installation Guide](https://www.virtualbox.org/manual/ch02.html#idp56300176)
+- [Mac Installation Guide (not supportd M1 processor)](https://www.virtualbox.org/manual/ch02.html#idp56300272)
+- [Linux Installation Guide](https://www.virtualbox.org/manual/ch02.html#idp56300328)
+
 ## Minimal Laptop Device Requirements
 
 - **Processor**: Dual-core (Intel or AMD) with virtualization support
