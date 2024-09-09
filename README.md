@@ -59,8 +59,8 @@ To follow along with the training, ensure the following tools are installed on y
 ## Content and Schedule (each session will be 2 hours )
 
 - **Session 1**: DevOps Introduction
-- **Session 2**: (Content will be added here)
-
+- **Session 2**: Linux Commands
+- **Session 3**: Git Commands
 **Note**: Please ensure you have a stable internet connection and enough resources to run Vagrant and VirtualBox for hands-on labs.
 
 ## Contact
