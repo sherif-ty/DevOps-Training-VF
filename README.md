@@ -1,77 +1,58 @@
-<h1 align="center">DevOps Training</h1>
+<h1>Git Commands</h1>
+<p></p>
+<a href="https://drive.google.com/file/d/1UB5IJy7YOxoJ3x9HxymR7cUEXUnuTN4B/view?usp=sharing" target="_blank">
+    <img src="https://via.placeholder.com/500" alt="Google Drive File" width="500">
+</a>
+<p></p>
 
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1gc-vXdQvaa3srR2ZXwHIpJIadqOBKWGp" alt="DevOps Training Image" width="500" height="500" />
-</p>
+<h1>Vagrant Linux Machine Setup with GitLab</h1>
 
-## Session Structure
+<p>This guide explains how to set up a small Linux machine using Vagrant and VirtualBox, and how to access it as the root user via PuTTY and access the GitLab container from your local machine.</p>
 
-- Each session will be available on a different GitHub branch.
-- Please switch to the relevant branch for the session you're working on.
+<h2>Steps to Set Up the Vagrant Machine</h2>
 
-## Prerequisites
-
-To follow along with the training, ensure the following tools are installed on your machine.
-
-### 1. Visual Studio Code (VS Code)
-
-#### Installation Guides:
-- [Windows Installation Guide](https://code.visualstudio.com/docs/setup/windows)
-- [Mac Installation Guide](https://code.visualstudio.com/docs/setup/mac)
-- [Linux Installation Guide](https://code.visualstudio.com/docs/setup/linux)
-
-### 2. Vagrant
-
-#### Installation Guides:
-- [Windows Installation Guide](https://developer.hashicorp.com/vagrant/docs/installation#windows)
-- [Mac Installation Guide](https://developer.hashicorp.com/vagrant/docs/installation#macos)
-- [Linux Installation Guide](https://developer.hashicorp.com/vagrant/docs/installation#linux)
-
-### 3. PuTTY
-
-#### Installation Guides:
-- [Windows Installation Guide](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
-- [Mac Installation Guide](https://www.chiark.greenend.org.uk/~sgtatham/putty/x11.html)
-- [Linux Installation Guide](https://www.chiark.greenend.org.uk/~sgtatham/putty/puttydoc.txt)
-
-  ###4. Git
-####Installation Guides:
-- [Windows Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#windows)
-- [Mac Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#macos)
-- [Linux Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#linux)
-
-
-### 5. VirtualBox
-#### Installation Guides:
-- [Windows Installation Guide](https://www.virtualbox.org/manual/ch02.html#idp56300176)
-- [Mac Installation Guide (not supportd M1 processor)](https://www.virtualbox.org/manual/ch02.html#idp56300272)
-- [Linux Installation Guide](https://www.virtualbox.org/manual/ch02.html#idp56300328)
-
-## Minimal Laptop Device Requirements
-
-- **Processor**: Dual-core (Intel or AMD) with virtualization support
-- **RAM**: At least 8 GB (16 GB or more recommended for running multiple VMs or containers)
-- **Storage**: 50 GB free disk space (SSD recommended for faster performance)
-- **Operating System**: Linux, macOS, or Windows
-- **Network**: Reliable internet connection
-- **Additional**: Able to run virtual machines (e.g., VirtualBox, VMware) or containerized environments (e.g., Docker, Podman)
-
-## Content and Schedule (each session will be 2 hours )
-
-- **Session 1**: DevOps Introduction
-- **Session 2**: Linux Commands
-- **Session 3**: Git Commands
-**Note**: Please ensure you have a stable internet connection and enough resources to run Vagrant and VirtualBox for hands-on labs.
-
-## Contact
-
-<ul style="font-size: smaller;">
-  <li>
-    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="16" height="16" />
-    Eng.s.abdelkader@gmail.com
+<ol>
+  <li>1-Make sure you are on the correct branch for your Vagrant setup.</li>
+  <li>If the machine is already running, reload it with provisioning to apply the new configuration:
+    <pre><code>vagrant reload --provision</code></pre>
   </li>
-  <li>
-    <img src="https://cdn-icons-png.flaticon.com/512/220/220236.png" alt="WhatsApp" width="16" height="16" />
-    +201025113059
+  <li>Start the Vagrant machine:
+    <pre><code>vagrant up</code></pre>
   </li>
+  <li>To check the SSH configuration of the machine:
+    <pre><code>vagrant ssh-config</code></pre>
+  </li>
+</ol>
+
+<h2>Connecting to the Linux Machine Using PuTTY</h2>
+
+<ol>
+  <li>Open PuTTY and set the following configuration:
+    <ul>
+      <li><strong>IP address:</strong> <code>192.168.56.10</code></li>
+      <li><strong>Port:</strong> <code>22</code></li>
+      <li><strong>Username:</strong> <code>root</code></li>
+      <li><strong>Password:</strong> <code>password</code></li>
+    </ul>
+  </li>
+  <li>Click <strong>Open</strong> to initiate the connection. You will now be able to log into the Linux machine as <code>root</code>.</li>
+</ol>
+
+<h2>Accessing the GitLab Container</h2>
+
+<ol>
+  <li>After the Vagrant machine is up and running, open your web browser.</li>
+  <li>In the browser's address bar, enter:
+    <pre><code>http://192.168.56.10</code></pre>
+  </li>
+  <li>GitLab should now be accessible through your browser.</li>
+  <li>You can also SSH into the GitLab container via your terminal:
+    <pre><code>ssh git@192.168.56.10</code></pre>
+  </li>
+</ol>
+
+<h2>Notes</h2>
+<ul>
+  <li>The GitLab container will be available on port 80 for HTTP access and port 22 for SSH access.</li>
+  <li>Modify the IP address or other configurations by editing the <code>Vagrantfile</code> if needed.</li>
 </ul>
