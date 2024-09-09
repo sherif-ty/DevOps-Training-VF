@@ -1,8 +1,6 @@
 <h1>Git Commands</h1>
 <p></p>
-<a > href="https://drive.google.com/file/d/1UB5IJy7YOxoJ3x9HxymR7cUEXUnuTN4B/view?usp=sharing" target="_blank">
-    <img src="https://via.placeholder.com/500" alt="Google Drive File" width="500">
-</a>
+<img src="https://drive.google.com/uc?export=view&id=1UB5IJy7YOxoJ3x9HxymR7cUEXUnuTN4B" alt="Google Drive File" width="500">
 <p></p>
 
 <h1>Vagrant Linux Machine Setup with GitLab</h1>
