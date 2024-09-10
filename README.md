@@ -56,12 +56,18 @@ To follow along with the training, ensure the following tools are installed on y
 - **Network**: Reliable internet connection
 - **Additional**: Able to run virtual machines (e.g., VirtualBox, VMware) or containerized environments (e.g., Docker, Podman)
 
-## Content and Schedule (each session will be 2 hours )
+## Content and Schedule (each session will be 2 Hours )
 
 - **Session 1**: DevOps Introduction
 - **Session 2**: Linux Commands
 - **Session 3**: Git Commands
-**Note**: Please ensure you have a stable internet connection and enough resources to run Vagrant and VirtualBox for hands-on labs.
+- **Session 4**: working with Docker
+- **Session 5**: working with Docker
+-  **Session 6**: CICD pipelines
+-  **Session 7**: Infrastructure as code (IaC)
+-  **Session 8**:monitoring
+
+  
 
 ## Contact
 
