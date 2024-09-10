@@ -1,6 +1,8 @@
 <h1>Learning Docker</h1>
 <p></p>
-<img src="https://drive.google.com/file/d/181ia-CO4ZVMCG63kzIPsib01xTkMNkP3/view?usp=drive_link" alt="Learning Docker" width="500">
+<a href="https://drive.google.com/file/d/181ia-CO4ZVMCG63kzIPsib01xTkMNkP3/view?usp=sharing" target="_blank">
+    <img src="https://drive.google.com/uc?export=view&id=181ia-CO4ZVMCG63kzIPsib01xTkMNkP3" alt="Learning Docker" width="500">
+</a>
 <p></p>
 
 <h2>Vagrant Linux Machine Setup</h2>
