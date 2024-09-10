@@ -65,7 +65,7 @@ To follow along with the training, ensure the following tools are installed on y
 - **Session 5**: working with Docker
 -  **Session 6**: CICD pipelines
 -  **Session 7**: Infrastructure as code (IaC)
--  **Session 8**:monitoring
+-  **Session 8**: Monitoring
 
   
 
