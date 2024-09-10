@@ -1,6 +1,6 @@
 <h1>Learning Docker</h1>
 <p></p>
-<img src="https://drive.google.com/uc?export=view&id=1CT-CujN16EmPUY6_3xfaHDz352DLVI2s" alt="Linux Virtual Machine Access via SSH" width="500">
+<img src="https://drive.google.com/file/d/181ia-CO4ZVMCG63kzIPsib01xTkMNkP3/view?usp=sharing" alt="Linux Virtual Machine Access via SSH" width="500">
 <p></p>
 
 <h2>Vagrant Linux Machine Setup</h2>
