@@ -62,10 +62,10 @@ To follow along with the training, ensure the following tools are installed on y
 - **Session 2**: Linux Commands
 - **Session 3**: Git Commands
 - **Session 4**: working with Docker
-- **Session 5**: working with Docker
--  **Session 6**: CICD pipelines
--  **Session 7**: Infrastructure as code (IaC)
--  **Session 8**: Monitoring
+- **Session 5**: CICD pipelines
+-  **Session 6**: Infrastructure as code (IaC)
+-  **Session 7**: Monitoring
+-  **Session 8**: optional topics
 
   
 
