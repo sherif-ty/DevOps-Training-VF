@@ -56,7 +56,7 @@ To follow along with the training, ensure the following tools are installed on y
 - **Network**: Reliable internet connection
 - **Additional**: Able to run virtual machines (e.g., VirtualBox, VMware) or containerized environments (e.g., Docker, Podman)
 
-## Content and Schedule (each session will be 2 Hours )
+## Content and Schedule (each session will be 3 Hours maximum )
 
 - **Session 1**: DevOps Introduction
 - **Session 2**: Linux Commands
