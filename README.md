@@ -35,10 +35,10 @@
   </li>
   <li>Click <strong>Open</strong> to initiate the connection. You will now be able to log into the Linux machine as <code>root</code>.</li>
 </ol>
-<h2>Access GitLab: After the VM is up, you can access GitLab on your local machine by navigating to:</h2>
+<h2>3- Access GitLab: After the VM is up, you can access GitLab on your local machine by navigating to:</h2>
 
-<h3>HTTP: http://localhost:8080</h3>
-<h3>HTTPS: https://localhost:8443</h3>
+<h3>*HTTP: http://localhost:8080</h3>
+<h3>*HTTPS: https://localhost:8443</h3>
 <h4>Accessing the GitLab Container ....optional</h4>
 
 <ol>
