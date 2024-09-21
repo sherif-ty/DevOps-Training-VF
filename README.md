@@ -35,8 +35,11 @@
   </li>
   <li>Click <strong>Open</strong> to initiate the connection. You will now be able to log into the Linux machine as <code>root</code>.</li>
 </ol>
+<h2>Access GitLab: After the VM is up, you can access GitLab on your local machine by navigating to:
 
-<h2>Accessing the GitLab Container</h2>
+HTTP: http://localhost:8080
+HTTPS: https://localhost:8443</h2>
+<h2>Accessing the GitLab Container <optional></h2>
 
 <ol>
   <li>After the Vagrant machine is up and running, open your web browser.</li>
