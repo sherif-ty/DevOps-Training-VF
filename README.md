@@ -21,6 +21,16 @@
     <pre><code>vagrant ssh-config</code></pre>
   </li>
 </ol>
+<ol>
+  <li>to use vagranr-docker file :
+    <pre><code>vagrant plugin install vagrant-docker-compose</code></pre>
+  </li>
+   <li>
+    <pre><code>vagrant up --provider=docker --vagrantfile=Vagrant-docker</code></pre>
+  </li>
+</ol>
+
+
 
 <h2>Connecting to the Linux Machine Using PuTTY</h2>
 
