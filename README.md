@@ -27,7 +27,7 @@
     <pre><code>vagrant plugin install vagrant-docker-compose</code></pre>
   </li>
    <li>
-    <pre><code>vagrant up --provider=docker --vagrantfile=Vagrant-docker</code></pre>
+    <pre><code>VAGRANT_VAGRANTFILE=Vagrant-docker vagrant up --provider=docker</code></pre>
   </li>
 </ol>
 
