@@ -1,7 +1,7 @@
 <h1 align="center">CICD with Jenkins Training</h1>
 
 <p align="center">
-  <img src="[https://via.placeholder.com/600x300?text=CICD+with+Jenkins](https://drive.google.com/file/d/1j6BQf9eHSuEqFtWaQJ023ARETz2dl17a/view?usp=drive_link)" alt="CICD with Jenkins" />
+  <img src="https://drive.google.com/file/d/1j6BQf9eHSuEqFtWaQJ023ARETz2dl17a/view?usp=sharing" alt="CICD with Jenkins" />
 </p>
 
 <h2>Introduction</h2>
