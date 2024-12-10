@@ -1,83 +1,68 @@
-<h1 align="center">DevOps Training</h1>
+<h1 align="center">CICD with Jenkins Training</h1>
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1gc-vXdQvaa3srR2ZXwHIpJIadqOBKWGp" alt="DevOps Training Image" width="500" height="500" />
+  <img src="https://via.placeholder.com/600x300?text=CICD+with+Jenkins" alt="CICD with Jenkins" />
 </p>
 
-## Session Structure
+<h2>Introduction</h2>
+<p>
+  Continuous Integration (CI) and Continuous Deployment (CD) are practices that improve software development by automating integration and deployment processes. 
+  Jenkins, an open-source automation server, is widely used for implementing CI/CD pipelines due to its robust plugin ecosystem and ease of use.
+</p>
 
-- Each session will be available on a different GitHub branch.
-- Please switch to the relevant branch for the session you're working on.
-
-## Prerequisites
-
-To follow along with the training, ensure the following tools are installed on your machine.
-
-### 1. Visual Studio Code (VS Code)
-
-#### Installation Guides:
-- [Windows Installation Guide](https://code.visualstudio.com/docs/setup/windows)
-- [Mac Installation Guide](https://code.visualstudio.com/docs/setup/mac)
-- [Linux Installation Guide](https://code.visualstudio.com/docs/setup/linux)
-
-### 2. Vagrant
-
-#### Installation Guides:
-- [Windows Installation Guide](https://developer.hashicorp.com/vagrant/docs/installation#windows)
-- [Mac Installation Guide](https://developer.hashicorp.com/vagrant/docs/installation#macos)
-- [Linux Installation Guide](https://developer.hashicorp.com/vagrant/docs/installation#linux)
-
-### 3. PuTTY
-
-#### Installation Guides:
-- [Windows Installation Guide](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
-- [Mac Installation Guide](https://www.chiark.greenend.org.uk/~sgtatham/putty/x11.html)
-- [Linux Installation Guide](https://www.chiark.greenend.org.uk/~sgtatham/putty/puttydoc.txt)
-
-  ###4. Git
-####Installation Guides:
-- [Windows Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#windows)
-- [Mac Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#macos)
-- [Linux Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#linux)
-
-
-### 5. VirtualBox
-#### Installation Guides:
-- [Windows Installation Guide](https://www.virtualbox.org/manual/ch02.html#idp56300176)
-- [Mac Installation Guide (not supportd M1 processor)](https://www.virtualbox.org/manual/ch02.html#idp56300272)
-- [Linux Installation Guide](https://www.virtualbox.org/manual/ch02.html#idp56300328)
-
-## Minimal Laptop Device Requirements
-
-- **Processor**: Dual-core (Intel or AMD) with virtualization support
-- **RAM**: At least 8 GB (16 GB or more recommended for running multiple VMs or containers)
-- **Storage**: 50 GB free disk space (SSD recommended for faster performance)
-- **Operating System**: Linux, macOS, or Windows
-- **Network**: Reliable internet connection
-- **Additional**: Able to run virtual machines (e.g., VirtualBox, VMware) or containerized environments (e.g., Docker, Podman)
-
-## Content and Schedule (each session will be 3 Hours maximum )
-
-- **Session 1**: DevOps Introduction
-- **Session 2**: Linux Commands
-- **Session 3**: Git Commands
-- **Session 4**: working with Docker
-- **Session 5**: CICD pipelines
--  **Session 6**: Infrastructure as code (IaC)
--  **Session 7**: Monitoring
--  **Session 8**: optional topics
-
-  
-
-## Contact
-
-<ul style="font-size: smaller;">
+<h3>What are CI and CD?</h3>
+<ul>
   <li>
-    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="16" height="16" />
-    Eng.s.abdelkader@gmail.com
+    <strong>Continuous Integration (CI):</strong> Merging developers' working copies to a shared mainline frequently, aiming to detect and address errors quickly.
   </li>
   <li>
-    <img src="https://cdn-icons-png.flaticon.com/512/220/220236.png" alt="WhatsApp" width="16" height="16" />
-    +201025113059
+    <strong>Continuous Deployment (CD):</strong> Automatically deploying changes that pass all stages of your production pipeline, ensuring software can be released to production anytime.
   </li>
 </ul>
+
+<h3>Why Jenkins?</h3>
+<ul>
+  <li><strong>Extensibility:</strong> Over 1800 plugins for integration with various tools and services.</li>
+  <li><strong>Community Support:</strong> A large, active community contributing to its development.</li>
+  <li><strong>Ease of Use:</strong> User-friendly interface and comprehensive documentation.</li>
+</ul>
+
+<h2>Training Sessions</h2>
+<ol>
+  <li><strong>Introduction to CICD:</strong> Overview of Continuous Integration and Continuous Deployment.</li>
+  <li><strong>Setting Up Jenkins:</strong> Installing and configuring Jenkins, understanding the interface.</li>
+  <li><strong>Automating Builds:</strong> Integrating version control systems and setting up build jobs.</li>
+  <li><strong>Integrating Docker:</strong> Using Docker containers as Jenkins build agents.</li>
+  <li><strong>Designing Pipelines:</strong> Creating declarative and scripted pipelines using Jenkinsfiles.</li>
+  <li><strong>Deploying Applications:</strong> Automating deployment strategies like rolling updates and blue-green deployments.</li>
+  <li><strong>Monitoring Jobs:</strong> Monitoring job execution using plugins and logs.</li>
+  <li><strong>Advanced Topics (Optional):</strong> Securing Jenkins, cloud integrations, and custom plugins.</li>
+</ol>
+
+<h2>Pipeline Configuration Tips</h2>
+<ul>
+  <li>
+    <strong>Pre Actions:</strong> Use options like "Abort the build if it’s stuck" and "Add timestamps to the Console Output."
+  </li>
+  <li>
+    <strong>Post Actions:</strong> Add actions like "Archive the artifacts" or "Send build notifications."
+  </li>
+</ul>
+
+<h2>Triggers</h2>
+<ul>
+  <li>
+    <strong>Poll SCM:</strong> Automate builds using Cron syntax (e.g., every 5 minutes: <code>H/5 * * * *</code>).
+  </li>
+  <li>
+    <strong>GitHub Push Trigger:</strong> Configure a webhook in GitHub to trigger Jenkins builds automatically.
+  </li>
+</ul>
+
+<h2>Reference</h2>
+<p>
+  For detailed steps, visit the original article: 
+  <a href="https://medium.com/@sharma0purnima/how-to-set-up-ci-cd-using-jenkins-8e17685136e7" target="_blank">
+    How to Set Up CI/CD Using Jenkins
+  </a>
+</p>
