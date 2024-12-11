@@ -1,7 +1,7 @@
 <h1 align="center">CICD with Jenkins Training</h1>
 
 <p align="center">
-<img src="https://drive.google.com/uc?export=view&id=1j6BQf9eHSuEqFtWaQJ023ARETz2dl17a" alt="CICD with Jenkins" width="600" />
+<img src="https://drive.google.com/uc?export=view&id=1j6BQf9eHSuEqFtWaQJ023ARETz2dl17a" alt="CICD with Jenkins" width="300" />
 
 </p>
 
